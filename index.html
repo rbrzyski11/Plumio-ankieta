@@ -11,7 +11,7 @@
             const jsonData = {};
             formData.forEach((value, key) => jsonData[key] = value);
 
-            fetch("https://script.google.com/macros/s/AKfycbw06E-ljXkIXD7U7-LuLGnPbPBif9l_FBTWO7CIpWVAoKDK-RiTCPGf0-QyGKodBhuQXQ/exec", {
+            fetch("https://script.google.com/macros/s/AKfycbzxL1wSBa7p2UPsnZohVR1yUWtQMGwqU7VDcnFdk8sab_2s2eUheWARgeMEmmZOjOUb3A/exec", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(jsonData)
